@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+.hamburger{
+  background-image: url('../src/assets/bars-solid.svg');
+  width: 26px;
+  height: 30px;
+}
+.berkas{
+  background-image: url('../src/assets/file.svg');
+  width: 26px;
+  height: 30px;
+}
+.tandax{
+  background-image: url('../src/assets/xmark-solid.svg');
+  width: 24px;
+  height: 30px;
+}
+.balok{
+ @apply bg-gradient-to-b from-green-100 to-green-200 ;
+  
+}
